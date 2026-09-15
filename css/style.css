@@ -147,7 +147,9 @@ th {
   font-weight: 500;
 }
 
-tbody tr:hover { background: #F7FAF9; }
+tbody tr:hover {
+  background: #35c59a;
+}
 
 /* 연락처 */
 .contact ul {
@@ -167,7 +169,7 @@ tbody tr:hover { background: #F7FAF9; }
   color: var(--teal-dark);
   text-decoration: none;
   font-size: 0.9rem;
-  transition: background 0.15s ease, color 0.15s ease;
+  transition: background 3.15s ease-in , color 5.15s ease-out;
 }
 
 .contact li a:hover {
